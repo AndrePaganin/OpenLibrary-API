@@ -99,10 +99,11 @@
 		4CB4C8E82816DECC00874936 /* OpenLibralyChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				4CB4C9192816DF4700874936 /* Model */,
+				4CB4C91A2816DF6500874936 /* View */,
+				4CB4C91B2816DF8000874936 /* Presenter */,
 				4CB4C8E92816DECC00874936 /* AppDelegate.swift */,
 				4CB4C8EB2816DECC00874936 /* SceneDelegate.swift */,
-				4CB4C8ED2816DECC00874936 /* ViewController.swift */,
-				4CB4C8EF2816DECC00874936 /* Main.storyboard */,
 				4CB4C8F22816DECE00874936 /* Assets.xcassets */,
 				4CB4C8F42816DECE00874936 /* LaunchScreen.storyboard */,
 				4CB4C8F72816DECE00874936 /* Info.plist */,
@@ -125,6 +126,29 @@
 				4CB4C90C2816DECE00874936 /* OpenLibralyChallengeUITestsLaunchTests.swift */,
 			);
 			path = OpenLibralyChallengeUITests;
+			sourceTree = "<group>";
+		};
+		4CB4C9192816DF4700874936 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CB4C91A2816DF6500874936 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CB4C8ED2816DECC00874936 /* ViewController.swift */,
+				4CB4C8EF2816DECC00874936 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CB4C91B2816DF8000874936 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
