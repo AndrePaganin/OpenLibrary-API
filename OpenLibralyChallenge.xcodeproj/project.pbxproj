@@ -16,6 +16,10 @@
 		4CB4C90D2816DECE00874936 /* OpenLibralyChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4C90C2816DECE00874936 /* OpenLibralyChallengeUITestsLaunchTests.swift */; };
 		4CB4C91E2816FB5200874936 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4C91C2816FB5200874936 /* FindViewController.swift */; };
 		4CB4C91F2816FB5200874936 /* FindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4C91D2816FB5200874936 /* FindViewController.xib */; };
+		4CB4C9222817101900874936 /* ListBooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4C9202817101900874936 /* ListBooksTableViewController.swift */; };
+		4CB4C9232817101900874936 /* ListBooksTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4C9212817101900874936 /* ListBooksTableViewController.xib */; };
+		4CB4C92728180D1000874936 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4C92528180D1000874936 /* BookTableViewCell.swift */; };
+		4CB4C92828180D1000874936 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4C92628180D1000874936 /* BookTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		4CB4C90C2816DECE00874936 /* OpenLibralyChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLibralyChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CB4C91C2816FB5200874936 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		4CB4C91D2816FB5200874936 /* FindViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindViewController.xib; sourceTree = "<group>"; };
+		4CB4C9202817101900874936 /* ListBooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBooksTableViewController.swift; sourceTree = "<group>"; };
+		4CB4C9212817101900874936 /* ListBooksTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBooksTableViewController.xib; sourceTree = "<group>"; };
+		4CB4C92528180D1000874936 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		4CB4C92628180D1000874936 /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,10 @@
 			children = (
 				4CB4C91C2816FB5200874936 /* FindViewController.swift */,
 				4CB4C91D2816FB5200874936 /* FindViewController.xib */,
+				4CB4C9202817101900874936 /* ListBooksTableViewController.swift */,
+				4CB4C9212817101900874936 /* ListBooksTableViewController.xib */,
+				4CB4C92528180D1000874936 /* BookTableViewCell.swift */,
+				4CB4C92628180D1000874936 /* BookTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,9 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB4C9232817101900874936 /* ListBooksTableViewController.xib in Resources */,
 				4CB4C8F62816DECE00874936 /* LaunchScreen.storyboard in Resources */,
 				4CB4C91F2816FB5200874936 /* FindViewController.xib in Resources */,
 				4CB4C8F32816DECE00874936 /* Assets.xcassets in Resources */,
+				4CB4C92828180D1000874936 /* BookTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +298,8 @@
 			files = (
 				4CB4C8EA2816DECC00874936 /* AppDelegate.swift in Sources */,
 				4CB4C8EC2816DECC00874936 /* SceneDelegate.swift in Sources */,
+				4CB4C9222817101900874936 /* ListBooksTableViewController.swift in Sources */,
+				4CB4C92728180D1000874936 /* BookTableViewCell.swift in Sources */,
 				4CB4C91E2816FB5200874936 /* FindViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
