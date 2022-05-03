@@ -38,7 +38,7 @@
                         </backgroundConfiguration>
                     </buttonConfiguration>
                     <connections>
-                        <action selector="searchButton:" destination="-1" eventType="touchUpInside" id="3rK-ny-2af"/>
+                        <action selector="searchButton" destination="-1" eventType="touchUpInside" id="bvq-VW-OWa"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's find a book..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygl-zN-ftf">

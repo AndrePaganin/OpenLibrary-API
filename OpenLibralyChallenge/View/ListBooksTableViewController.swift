@@ -9,9 +9,9 @@ import UIKit
 
 class ListBooksTableViewController: UITableViewController {
 
-    @IBOutlet var booksTableView: UITableView!
+    var booksTableView: UITableView!
 
-    let myData = ["First", "Second", "Third", "Fourth", "Fifth"]
+    let myData = ["First", "Second"]
         
     override func viewDidLoad() {
         super.viewDidLoad()
