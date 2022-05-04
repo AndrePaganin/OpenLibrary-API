@@ -10,18 +10,16 @@ import Foundation
 
 class BooksPresenter {
 
-
     // Base URL:
     let baseURL = "https://openlibrary.org/search.json?q="
 
     // Build the URL with the searchKey provided
     func finalURL(searchKey: String) -> URL {
-        let url = "\(baseURL)\(searchKey.replacingOccurrences(of: " ", with: "+"))"
+        let url = "\(baseURL)\(searchKey.replacingOccurrences(of: " ", with: "+"))&limit=10"
         guard let searchURL = URL(string: url) else { return URL(string: "")! }
 
         return searchURL
     }
-
     
     // Send a request to the API and pass in the returned object
     func requestAPI(url: URL, completion: @escaping ([Book]) -> Void) {

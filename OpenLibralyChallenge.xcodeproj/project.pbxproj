@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C414E86281D7FB7002A42F3 /* BooksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C414E85281D7FB7002A42F3 /* BooksPresenter.swift */; };
 		4C414E88281D8531002A42F3 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C414E87281D8531002A42F3 /* BookModel.swift */; };
+		4C9964872821FD18002A1C2C /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9964862821FD18002A1C2C /* UIImageViewExtension.swift */; };
 		4CB4C8EA2816DECC00874936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4C8E92816DECC00874936 /* AppDelegate.swift */; };
 		4CB4C8EC2816DECC00874936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4C8EB2816DECC00874936 /* SceneDelegate.swift */; };
 		4CB4C8F32816DECE00874936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4C8F22816DECE00874936 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		4C414E85281D7FB7002A42F3 /* BooksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPresenter.swift; sourceTree = "<group>"; };
 		4C414E87281D8531002A42F3 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		4C9964862821FD18002A1C2C /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		4CB4C8E62816DECC00874936 /* OpenLibralyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLibralyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB4C8E92816DECC00874936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CB4C8EB2816DECC00874936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C996488282207D6002A1C2C /* ListBooks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB4C9202817101900874936 /* ListBooksTableViewController.swift */,
+				4CB4C92528180D1000874936 /* BookTableViewCell.swift */,
+				4CB4C92628180D1000874936 /* BookTableViewCell.xib */,
+			);
+			path = ListBooks;
+			sourceTree = "<group>";
+		};
+		4C99648928220843002A1C2C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C9964862821FD18002A1C2C /* UIImageViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		4CB4C8DD2816DECC00874936 = {
 			isa = PBXGroup;
 			children = (
@@ -109,10 +129,10 @@
 		4CB4C8E82816DECC00874936 /* OpenLibralyChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				4CB4C929281974DD00874936 /* FindBooks */,
 				4CB4C9192816DF4700874936 /* Model */,
 				4CB4C91A2816DF6500874936 /* View */,
 				4CB4C91B2816DF8000874936 /* Presenter */,
+				4C99648928220843002A1C2C /* Extension */,
 				4CB4C8E92816DECC00874936 /* AppDelegate.swift */,
 				4CB4C8EB2816DECC00874936 /* SceneDelegate.swift */,
 				4CB4C8F22816DECE00874936 /* Assets.xcassets */,
@@ -150,9 +170,8 @@
 		4CB4C91A2816DF6500874936 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4CB4C9202817101900874936 /* ListBooksTableViewController.swift */,
-				4CB4C92528180D1000874936 /* BookTableViewCell.swift */,
-				4CB4C92628180D1000874936 /* BookTableViewCell.xib */,
+				4CB4C929281974DD00874936 /* FindBooks */,
+				4C996488282207D6002A1C2C /* ListBooks */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +331,7 @@
 				4CB4C92728180D1000874936 /* BookTableViewCell.swift in Sources */,
 				4CB4C91E2816FB5200874936 /* FindViewController.swift in Sources */,
 				4C414E86281D7FB7002A42F3 /* BooksPresenter.swift in Sources */,
+				4C9964872821FD18002A1C2C /* UIImageViewExtension.swift in Sources */,
 				4C414E88281D8531002A42F3 /* BookModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
